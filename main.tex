@@ -1,0 +1,31 @@
+\documentclass{article}
+\usepackage{csquotes}
+\usepackage{booktabs}
+\usepackage{datetime2}
+\usepackage{graphicx}
+\usepackage[english,ngerman]{babel}
+
+\begin{document}
+	\begin{titlepage}
+		\centering
+		\vspace*{2cm}
+		{\Huge\bfseries Konzept Kövenig\par}
+		\vspace{1cm}
+		{\Large Entwicklung eines nachhaltigen Verkehrskonzepts}
+		\vfill
+		{\large Juni 2023\par}
+		\vspace*{1cm}
+		\includegraphics[width=0.3\textwidth]{logo.png}
+	\end{titlepage}
+	
+	\tableofcontents
+	\include{1_einleitung}
+        \include{2_analyse}
+        \include{3_verkehr} 
+        \include{9_kommunikation}
+        \include{10_umsetzung}
+        \include{11_monitoring}
+        \include{12_schluss}
+	\bibliographystyle{plain} 
+	\bibliography{refs}
+\end{document}
